@@ -5,7 +5,7 @@ from django.contrib import admin
 from django.http import JsonResponse
 from django.urls import path, include
 
-from core.swagger import schema_view
+from project_name.swagger import schema_view
 
 
 def health_check(_):

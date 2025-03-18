@@ -4,7 +4,7 @@ from rest_framework import permissions
 
 from common.swagger.generator import BothHttpAndHttpsSchemaGenerator
 
-from core.settings import SWAGGER_CONFIG
+from project_name.settings import SWAGGER_CONFIG
 
 
 def schema_view():
