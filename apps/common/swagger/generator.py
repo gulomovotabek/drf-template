@@ -1,6 +1,6 @@
 from drf_yasg.generators import OpenAPISchemaGenerator
 
-from project_name.settings import SWAGGER_CONFIG
+from core.settings import SWAGGER_CONFIG
 
 
 class BothHttpAndHttpsSchemaGenerator(OpenAPISchemaGenerator):
